@@ -1,0 +1,20 @@
+* {
+    box-sizing:border-box;
+}
+
+
+body {
+    background: rgba(21, 50, 77, 0.938);
+}
+form {
+     max-width:600px;
+    margin:250px auto 0 auto;
+    padding: 15px;
+    border:5px solid rgb(14, 122, 23);
+}
+form .row {
+    width:100%;
+    margin-bottom:15px;
+    height:25px;
+    padding:5px;
+}

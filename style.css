@@ -50,6 +50,7 @@ header ul a {
     display: flex;
     flex-wrap: wrap;
     align-items: end;
+    background: rgb(247, 244, 244);
 }
 
 #page .product {
@@ -75,23 +76,26 @@ header ul a {
 
 #sidebar {
     width: 25%;
-    border: 1px solid rgb(65, 61, 61);
+    border: 1px solid rgb(199, 195, 195);
     padding:15px;
 }
 #sidebar ul li a {
     display: block;
     padding: 10px 15px;
-    border: 1px solid rgb(61, 59, 59);
+    border: 1px solid rgba(61, 59, 59, 0.26);
     border-radius: 10px;
-    border
     margin: 5px;
     text-decoration: none;
+    background: #eff1f1;
     color: black;
 }
+#sidebar ul li a:hover {
+    background: #99eed9;
 
+}
 
 #page .product button {
-    background: green;
+    background: rgba(22, 100, 22, 0.767);
     color: #fff;
     padding: 10px 15px;
     font-size: 22px;
@@ -99,10 +103,22 @@ header ul a {
     border: none;
     cursor: pointer;
     transition: 0.5s;
+    
 }
 
 #page .product button:hover {
-    background: #6ab13b;
+    background: #a6cec4e7;
+}
+footer {
+    background: rgb(44, 43, 43);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 26px;
+    width: 100%;
+
 }
 @media (max-width:700px){
     #sidebar,#page {
